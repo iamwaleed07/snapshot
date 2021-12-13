@@ -1,0 +1,41 @@
+.header {
+    height: 92vh;
+    background-image: url(../images/header-img.jpg);
+    background-size: cover;
+    background-position: center;
+
+    .overlay {
+        width: 100%;
+        height: 92vh;
+        background-color: var(--color-primary);
+        opacity: 0.9;
+        position: relative;
+    }
+
+    &__content {
+        text-align: center;
+        width: 100%;
+        position: absolute;
+        top: 30%;
+
+        h2 {
+            color: white;
+            font-weight: 100;
+            font-size: 3rem;
+            letter-spacing: 15px;
+        }
+
+        p {
+            color: #f9f9f9;
+            font-size: 1.6rem;
+            letter-spacing: 1px;
+            width: 60%;
+            margin: 3rem auto;
+        }
+
+    }
+
+    &__btn {
+        margin-top: 4rem;
+    }
+}
